@@ -1,0 +1,17 @@
+{
+  "name": "confac-vagrant",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "mm": "node ./node_modules/mongodb-migrate -runmm --config config.json --dbPropName db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wouter Van Schandevijl <woutervs@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mongodb-migrate": "^2.0.1"
+  }
+}
