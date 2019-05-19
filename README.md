@@ -1,6 +1,9 @@
 confac-vagrant
 ==============
 
+Make sure the credentials match `confac-back\src\config.json`
+
+
 Vagrant box for development.
 
 ```
@@ -12,6 +15,16 @@ vagrant up
 npm install
 npm run mm
 ```
+
+Docker
+------
+
+Or use Docker instead of Vagrant.
+
+```
+docker run -id -p 27010:27017 --name confac-mongo mongo
+```
+
 
 Migrations
 ----------
